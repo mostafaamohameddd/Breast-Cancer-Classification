@@ -28,7 +28,7 @@ Model Deployment: Flask app with HTML frontend
 
 ## How To Run
 1️) Clone the repository
-git clone https://github.com/your-username/breast-cancer-classification.git
+git clone https://github.com/mostafaamohameddd/breast-cancer-classification.git
 cd breast-cancer-classification
 
 2) Create & activate virtual environment
