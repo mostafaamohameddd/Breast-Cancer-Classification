@@ -162,6 +162,7 @@ Adapt for other classifiers (e.g., SVM, Random Forest) by modifying the notebook
 ## Project Structure 
 
 breast-cancer-classification/
+
 ├── app.py                  # Flask web application for real-time predictions
 ├── Machine_learning_project.ipynb  # Jupyter notebook for model training and evaluation
 ├── finalized_model.pkl     # Trained Logistic Regression model
