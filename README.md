@@ -1,4 +1,4 @@
-Breast Cancer Classification Application
+## Breast Cancer Classification Application
 
 A web-based machine learning application designed for classifying breast cancer diagnosis (malignant or benign) using features from the Wisconsin Breast Cancer Dataset. Powered by Flask for a seamless user interface and Logistic Regression for accurate classification, this project showcases a complete ML pipeline from data preprocessing to real-time prediction. Last updated: 02:26 PM EEST, Friday, September 19, 2025.
 Table of Contents
@@ -14,7 +14,7 @@ Contributing
 License
 Acknowledgments
 
-Features
+## Features
 
 Interactive Web Interface: User-friendly Flask app to input 13 tumor features and get instant predictions.
 Logistic Regression Classifier: Trained on standardized features with ~95-98% accuracy on test data.
@@ -24,19 +24,19 @@ Error Handling: Provides clear feedback for invalid inputs with detailed error m
 Model Persistence: Saves and loads trained model/scaler via pickle for seamless deployment.
 Extensible: Easily adaptable for additional ML models or dataset enhancements.
 
-Demo
+## Demo
 The web app presents a form for entering 13 tumor features (e.g., radius_mean, texture_mean). Upon submission:
 
 Input Example: radius_mean=17.99, texture_mean=10.38, etc.
 Output: "Prediction: Malignant (cancerous)" or "Benign (non-cancerous)" displayed on the page.
 
  
-Prerequisites
+## Prerequisites
 
 Python 3.8 or higher
 Access to Jupyter/Colab for model training (optional, pre-trained model included)
 
-Installation
+## Installation
 
 Clone the repository:
 git clone https://github.com/mostafaamohameddd/breast-cancer-classification.git
@@ -89,7 +89,9 @@ radius_se, texture_se, smoothness_se, compactness_se, concave points_se, symmetr
 symmetry_worst
 
 Adapt for other classifiers (e.g., SVM, Random Forest) by modifying the notebook.
-Project Structure
+
+
+## Project Structure
 breast-cancer-classification/
 ├── app.py                  # Flask web application for predictions
 ├── Machine_learning_project.ipynb  # Jupyter notebook for training and evaluation
@@ -106,7 +108,9 @@ Contributing
 Contributions are welcome! Please:
 
 This project is licensed under the MIT License - see the LICENSE file for details (create one if not present).
-Acknowledgments
+
+
+## Acknowledgments
 
 UCI Machine Learning Repository for the Breast Cancer Wisconsin dataset.
 Scikit-learn for robust ML tools.
