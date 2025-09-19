@@ -1,7 +1,9 @@
 ## Breast Cancer Classification Application
 
-A web-based machine learning application designed for classifying breast cancer diagnosis (malignant or benign) using features from the Wisconsin Breast Cancer Dataset. Powered by Flask for a seamless user interface and Logistic Regression for accurate classification, this project showcases a complete ML pipeline from data preprocessing to real-time prediction. Last updated: 02:26 PM EEST, Friday, September 19, 2025.
-Table of Contents
+A web-based machine learning application designed for classifying breast cancer diagnosis (malignant or benign) using features from the Wisconsin Breast Cancer Dataset. Powered by Flask for a seamless user interface and Logistic Regression for accurate classification, this project showcases a complete ML pipeline from data preprocessing to real-time prediction. Last updated: 02:33 PM EEST, Friday, September 19, 2025.
+
+
+## Table of Contents
 
 Features
 Demo
@@ -14,7 +16,7 @@ Contributing
 License
 Acknowledgments
 
-## Features
+Features
 
 Interactive Web Interface: User-friendly Flask app to input 13 tumor features and get instant predictions.
 Logistic Regression Classifier: Trained on standardized features with ~95-98% accuracy on test data.
@@ -30,8 +32,8 @@ The web app presents a form for entering 13 tumor features (e.g., radius_mean, t
 Input Example: radius_mean=17.99, texture_mean=10.38, etc.
 Output: "Prediction: Malignant (cancerous)" or "Benign (non-cancerous)" displayed on the page.
 
- 
-## Prerequisites
+ (Add a screenshot of the app in action here)
+Prerequisites
 
 Python 3.8 or higher
 Access to Jupyter/Colab for model training (optional, pre-trained model included)
@@ -93,22 +95,15 @@ Adapt for other classifiers (e.g., SVM, Random Forest) by modifying the notebook
 
 ## Project Structure
 breast-cancer-classification/
-├── app.py                  # Flask web application for predictions
-├── Machine_learning_project.ipynb  # Jupyter notebook for training and evaluation
+├── app.py                  # Flask web application for real-time predictions
+├── Machine_learning_project.ipynb  # Jupyter notebook for model training and evaluation
 ├── finalized_model.pkl     # Trained Logistic Regression model
 ├── scaler.pkl              # StandardScaler for feature normalization
 ├── breast-cancer.csv       # Dataset (add to .gitignore for large files)
-├── templates/
-│   └── index.html          # HTML template for the web form
-├── requirements.txt        # Python dependencies (generate with pip freeze)
+├── templates/              # Directory for HTML templates
+│   └── index.html          # HTML template for the web form (create with a form for 13 features)
+├── requirements.txt        # Python dependencies (generate with `pip freeze`)
 └── README.md               # This file
-
-Note: Create a templates folder with index.html (a simple form for the 13 features).
-Contributing
-Contributions are welcome! Please:
-
-This project is licensed under the MIT License - see the LICENSE file for details (create one if not present).
-
 
 ## Acknowledgments
 
@@ -116,4 +111,5 @@ UCI Machine Learning Repository for the Breast Cancer Wisconsin dataset.
 Scikit-learn for robust ML tools.
 Flask for lightweight web deployment.
 Inspired by healthcare AI projects on GitHub.
+
 
