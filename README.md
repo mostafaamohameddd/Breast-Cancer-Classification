@@ -1,9 +1,9 @@
-<artifact artifact_id="breast-cancer-prediction-readme" artifact_version_id="1" title="README.md" contentType="text/markdown">
+<artifact artifact_id="breast-cancer-prediction-readme" artifact_version_id="2" title="README.md" contentType="text/markdown">
 # Breast Cancer Diagnosis Predictor
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightblue)](https://flask.palletsprojects.com/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit-learn-1.2%2B-yellow)](https://scikit-learn.org/)
+[![Scikit-learn](https://img.shields.io/badge/scikit-learn-1.2%2B-green)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A web-based machine learning application for predicting breast cancer diagnosis (malignant or benign) using features from the Wisconsin Breast Cancer Dataset. Built with Flask for deployment and Logistic Regression for classification, this project demonstrates end-to-end ML workflow from data preprocessing to interactive prediction.
@@ -44,7 +44,7 @@ The web app presents a form for entering 13 tumor features. Upon submission:
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/breast-cancer-prediction.git
+   git clone https://github.com/mostafaamohameddd/breast-cancer-prediction.git
    cd breast-cancer-prediction
    ```
 
@@ -119,7 +119,8 @@ Contributions are welcome! Please:
 
 Report issues or suggest improvements via GitHub Issues.
 
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (create one if not present).
 
 ## Acknowledgments
 - UCI Machine Learning Repository for the Breast Cancer Wisconsin dataset.
